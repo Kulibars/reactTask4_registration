@@ -1,0 +1,62 @@
+.app {
+  text-align: center;
+}
+
+h3 {
+  margin: 1px;
+}
+
+.valid {
+  margin: 1px;
+  background-color: green;
+  color: white;
+}
+
+.inValid {
+  margin: 1px;
+  color: red;
+}
+
+.message {
+  margin: 10px auto 10px auto;
+  width: 200px;
+  padding: 0px;
+  border: solid;
+}
+
+.registrationInput {
+  font-size: 20px;
+  height: 20px;
+  width: 200px;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.registrationButton {
+  border-radius: 10px;
+  background: darkgoldenrod;
+  color: white;
+  height: 40px;
+  font-size: 20px;
+  width: 200px;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.registrationButtonValid {
+  border-radius: 10px;
+  background: green;
+  color: white;
+  height: 40px;
+  font-size: 20px;
+  width: 200px;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.registrForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
